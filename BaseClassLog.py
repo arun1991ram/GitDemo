@@ -3,6 +3,8 @@ import inspect
 import logging
 
 #This is a utility base class having common methods and driver inialization
+#This is a utility base class having common methods and driver inialization
+#This is a utility base class having common methods and driver inialization
 class BaseClassLog:
     def getLogger(self):
         loggername = inspect.stack()[1][3]
